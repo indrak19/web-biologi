@@ -156,10 +156,13 @@ footer{
     color:#00ffab;
 }
 *{box-sizing: border-box;}
-@media screen and(max-widht:1000px) {
-    #content,aside,table{width: 100%;
-    padding: 0;}
-}
-header{
-    display:inline;
-}
+@media screen and (max-width: 450px) {
+    aside{
+        width: 100%;
+        display: flexbox;   
+    }
+    #content,.gin,.jan,.usus,.paru,.lam,.pang{
+        width: 100%;
+        clear: both;}
+    header{display:inline}
+ }
