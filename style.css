@@ -165,5 +165,6 @@ footer{
         width: 100%;
         clear: both;}
         .card:hover{width:fit-content;}
-        nav a{font-size: 50%;}
+    header{display:inline;}
+        nav a{font-size: 100%;}
  }
