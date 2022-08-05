@@ -164,5 +164,6 @@ footer{
     #content,.gin,.jan,.usus,.paru,.lam,.pang{
         width: 100%;
         clear: both;}
-    nav{font:medium}
+    header{font:small;}
+    
  }
