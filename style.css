@@ -1,0 +1,165 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
+    color: #3F4E4F;
+}
+.jumbotron{
+    text-align: center;
+    background-color:#00ffab  ;
+    padding:60px;
+    color:#e3fcbf;
+    font-size: 30px;
+
+}
+
+h2{
+    color: #14c38e;
+}
+h3{
+    color: #4B8673;
+}
+h4{
+    color:#5FD068;
+}
+nav li{
+    display: inline;
+    margin-right:20px;
+    list-style-type: none;
+}
+
+nav{
+    position:sticky;
+    background-color: #14c38e;
+    padding: 5px;
+    top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color:#e3fcbf
+}
+nav a:hover{
+    font-weight: bold;
+}
+nav ul ul{
+    display: none;}
+
+nav ul li:hover > ul{
+    position:absolute;
+    display: block;   
+}
+nav ul ul li {
+   color: black;
+   display: block;
+   margin-left: 40px; 
+   background-color: #14c38e;
+   padding-top: 5px;
+   width: 100%;
+   text-align: center;
+    }
+main{
+    padding: 20px;
+    overflow: auto;
+    text-align: justify;
+}
+
+#content{
+    float:left;
+    width:75%;
+}
+aside{
+    float: right;
+    width: 24%;
+    padding-left: 20px;
+    text-align: center;
+    text-overflow: clip;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top:20px;
+}   
+aside img{
+    width: 200px;
+    border-radius: 5px;
+}
+
+aside img:hover{
+    width: 210px;
+}
+
+.jan{
+    float:left;
+    width: 48%;
+    
+}
+.gin{
+    float:left;
+    width: 48%;
+    
+}
+.usus{
+    float:left;
+    width: 48%;
+    
+}
+.paru{
+    float: right;
+    width: 48%;
+   
+}
+.lam{
+    float: right;
+    width: 48%;
+   
+}
+.pang{
+    float: right;
+    width: 48%;
+   
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top:20px;
+    padding:20px;
+    
+}
+.organ{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top:20px;
+    padding:20px;
+    
+}
+.card:hover{
+    width: 50%;
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+footer{
+    color: #00ffab;
+    background-color: #14c38e;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-top-right-radius: 20px  ;
+}
+.link{
+    text-decoration: none;
+    color:#00ffab;
+}
+*{box-sizing: border-box;}
+@media screen and(max-widht:1000px) {
+    #content,aside,table{width: 100%;
+    padding: 0;}
+}
+header{
+    display:inline;
+}
