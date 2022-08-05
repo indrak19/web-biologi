@@ -165,6 +165,6 @@ footer{
         width: 100%;
         clear: both;}
     nav a{padding-left:5px}
-    .card:hover{width:100%}
+    .card:hover{width:fit-content}
     
  }
