@@ -168,5 +168,5 @@ footer{
             display: inline;
         }
         .card:hover{width:fit-content;}
-        nav a{font-size: larger;}
+        nav a{font-size: 100%;}
  }
